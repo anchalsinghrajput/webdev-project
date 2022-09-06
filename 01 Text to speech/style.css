@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+main
+{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 400px;
+    box-shadow: 0px 0px 20px 5px rgb(54,22,109);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2
+{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(48,48,48);
+    text-shadow: 2px 2px rgb(202, 192, 192);
+}
+
+.text-section, .voice-section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(38,38,38);
+    align-self: start;
+}
+
+#text
+{
+    height: 7rem;
+    width: 20rem;
+    border: none;
+    outline: 2px solid rgba(128,128,128,0.623);
+    border-radius: 0.5rem;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px,10px;
+}
+
+#voice
+{
+    height: 3rem;
+    width: 20rem;
+    border: none;
+    outline: 2px solid rgba(128,128,128,0.623);
+    border-radius: 3px;
+    padding: 0px 10px;
+}
+
+.submit
+{
+    height: 2rem;
+    width: 20rem;
+    background-color: rgba(92,55,255,0.979);
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+}
+.submit:hover
+{
+    background-color: rgba(92,55,255,0.8);
+}
