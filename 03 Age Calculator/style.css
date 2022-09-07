@@ -1,0 +1,98 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(128,128,128,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    height: 20rem;
+    width: 500px;
+    max-width: 700px;
+    background-color: rgb(207, 166, 245);
+    box-shadow: 0px 0px 20px 3px rgb(199, 134, 134);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    /* flex-wrap: wrap; */
+}
+#first-row
+{
+    margin-bottom: 40px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+#second-row
+{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap;  */
+}
+#dob
+{
+    color:black;
+    position: relative;
+    width: 100%;
+    margin-right: 30px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: white;
+}
+#btn
+{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(6, 10, 245);
+}
+#btn:hover
+{
+    background-color: rgb(55, 6, 177);
+    cursor: pointer;
+}
+
+.box
+{
+    box-shadow: 0px 0px 10px 2px rgb(202, 206, 240);
+    color:white;
+    background-color: rgba(41, 45, 148, 0.6);
+    border-radius: 10px;
+    padding: 8% 20%;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width:517px)
+{
+    .container
+    {
+        width: 90%;
+    }
+    #first-row, #second-row
+    {
+        display:flex;
+        flex-direction: column;
+        margin: 4px;
+    }
+    .box
+    {
+        margin-top: 10px;
+    }
+    button
+    {
+        margin-bottom: 2px;
+    }
+}
