@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@900&display=swap');
+
 *
 {
     margin: 0px;
@@ -8,8 +10,16 @@
 body{
     background-color: rgba(128,128,128,0.2);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1
+{
+    font-family: 'Qwitcher Grypen', cursive;
+    margin-bottom: 30px;
+    margin-top: -15px;
 }
 
 .container
